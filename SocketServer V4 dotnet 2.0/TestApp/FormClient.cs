@@ -26,6 +26,7 @@ namespace TestApp
         {
             try
             {
+
                 this.clientGuid = Guid.NewGuid();
                 this.client = new BasicSocketClient();
                 this.client.ReceiveMessageEvent += new SocketServerLib.SocketHandler.ReceiveMessageDelegate(client_ReceiveMessageEvent);
