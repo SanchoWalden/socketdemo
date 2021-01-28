@@ -5,6 +5,7 @@ using System.Net.Security;
 using System.Diagnostics;
 using SocketServerLib.Message;
 using MultiThreadQueueLib;
+using CancellationToken = MultiThreadQueueLib.CancellationToken;
 
 namespace SocketServerLib.SocketHandler
 {
